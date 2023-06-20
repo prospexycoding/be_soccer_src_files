@@ -1,0 +1,35 @@
+.more-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-main h1{
+    color: lawngreen;
+}
+
+
+
+@media(max-width:450px){
+    .more-main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .more-main h1{
+        color: lawngreen;
+        font-size: 20px;
+    }
+
+    .more-main img{
+        width: 60px;
+    }
+}

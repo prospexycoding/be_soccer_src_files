@@ -1,0 +1,270 @@
+.News-Main{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstSection-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.first-tin{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+
+}
+
+.left-tin{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.left-tin img{
+    width: 100%;
+    height: 400px;
+}
+
+.writing{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(87, 202, 87);
+    padding: 10px 20px;
+    gap: 5px;
+}
+
+.writing h3{
+    color: rgb(236, 236, 67);
+}
+
+.writing h1{
+    color: white;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.writing h4{
+    color:  rgb(236, 236, 67);
+    font-weight: 400;
+}
+
+.writing h2{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.right-tins{
+    width: 44%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 13px;
+    gap: 5px;
+}
+
+.right-tins-box{
+    width: 100%;
+    height: 158px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.right-tins-box img{
+    width: 230px;
+    height: 100%;
+
+}
+
+.dort{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.dort h1{
+    font-size: 12px;
+    color: lawngreen;
+}
+
+.dort h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dort h2{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+@media(max-width:450px){
+    .News-Main{
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    
+    .firstSection-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+    }
+    
+    .first-tin{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        gap: 15px;
+    
+    }
+    
+    .left-tin{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 12px;
+    }
+    
+    .left-tin img{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .writing{
+        width: 100%;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: rgb(87, 202, 87);
+        padding: 10px 20px;
+        gap: 0px;
+    }
+    
+    .writing h3{
+        color: rgb(236, 236, 67);
+        font-size: 12px;
+    }
+    
+    .writing h1{
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .writing h4{
+        color:  rgb(236, 236, 67);
+        font-weight: 400;
+        font-size: 13px;
+    }
+    
+    .writing h2{
+        color: white;
+        font-weight: 400;
+        font-size: 11px;
+    }
+    
+    
+    .right-tins{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 13px;
+        gap: 5px;
+    }
+    
+    .right-tins-box{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: whitesmoke;
+    }
+    
+    .right-tins-box img{
+        width: 130px;
+        height: 100px;
+    
+    }
+    
+    .dort{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    
+    .dort h1{
+        font-size: 8px;
+        color: lawngreen;
+    }
+    
+    .dort h4{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .dort h2{
+        font-size: 12px;
+        font-weight: 200;
+    }
+    
+}

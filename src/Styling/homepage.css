@@ -1,0 +1,826 @@
+.homepage-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.date-container{
+    width: 55%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid silver;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0px 5px 8px rgba(78, 78, 78, 0.1);
+
+}
+
+.dating{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.dating::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.date-box{
+    width: 130px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:3px 30px;
+    
+}
+
+.date-box:hover{
+    border-bottom: 4px solid green;
+    cursor: pointer;
+}
+
+.date-box h2{
+   font-size: 10px;
+   color: #666;
+   font-weight: 700;
+}
+
+.date-box h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #666;
+    text-align: center
+    ;
+}
+
+.date-box h3{
+    font-size: 10px;
+    color: #666;
+    font-weight: 700;
+    
+}
+
+.live-box{
+   width: 55%;
+   height: 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: whitesmoke;
+   border: 1px solid silver;
+   border-top: none;
+   padding: 10px 75px;
+   border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 5px 8px rgba(78, 78, 78, 0.1);
+}
+
+.all{
+    width: 20%;
+     font-size: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+     color:#666;
+     font-weight:500;
+}
+
+.all small{
+    background-color: green;
+    padding: 4px;
+    color: white;
+    border-radius: 40%;
+    font-size: 10px;
+}
+
+.tele{
+    width: 20%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color:#666;
+    font-weight:500;
+}
+
+.tele small{
+    background-color: silver;
+    padding: 4px;
+    color: white;
+    border-radius: 40%;
+}
+
+.live-text{
+    width: 20%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color:#666;
+    font-weight:500;
+}
+
+.live-text small{
+    background-color: red;
+    padding: 4px;
+    color: white;
+    border-radius: 40%;
+}
+
+.date{
+    width: 55%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.date h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.date h3:hover{
+    color: rgb(118, 172, 118);
+    cursor: pointer;
+}
+
+.h4-input{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+.h4-input:hover{
+    color: rgb(118, 172, 118);
+}
+
+.h4-input input{
+    width: 21px;
+    outline: none;
+    height: 21px;
+}
+
+.ronado{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ronado img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid green;
+    padding: 8px;
+    object-fit: contain;
+
+}
+
+.Headscontainer{
+    width: 55%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+
+.ronado-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 30px;
+    padding: 10px;
+
+}
+
+.ronado-box::-webkit-scrollbar{
+    display: flex;
+    height: 5px;
+    background-color: silver;
+    width: 100%;
+}
+
+.ronado-box::-webkit-scrollbar-thumb{
+    background: linear-gradient(160deg, rgb(10, 255, 22),rgb(44, 43, 43));
+    border-radius: 10px;
+}
+
+.premier-league-container{
+    width: 55%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border:  1px solid silver;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px rgba(78, 78, 78, 0.1);
+
+
+}
+.premier-league{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 8px;
+}
+
+.premier-h1{
+    font-size: 17px;
+    color: #666;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.premier-h1 img{
+    width: 20px;
+    height: 15px;
+}
+
+.dot{
+    width: 25px;
+}
+/* fixures */
+.fixtures-box{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0px;
+    border: 1px solid silver;
+    gap: 5px;
+}
+
+.fixtures-box h1{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 18px;
+}
+
+.scores{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.scores h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.fix{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fix-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* laliga */
+
+
+.laliga-box{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0px;
+    border: 1px solid silver;
+    gap: 5px;
+}
+
+.laliga-box h1{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 18px;
+}
+
+.laliga-scores{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.laliga-scores h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.laliga-fix{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.laliga-fix-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width:450px){
+    .homepage-main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: white;
+        padding-top: 10px;
+    }
+    
+    .date-container{
+        width: 90%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        border: 1px solid silver;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        box-shadow: 0px 5px 8px rgba(78, 78, 78, 0.1);
+    
+    }
+    
+    .dating{
+        width: 90%;
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        overflow-x: scroll;
+        padding: 5px;
+    }
+    
+    .dating::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+    
+    
+    .date-box{
+        width: 130px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:3px 10px;
+        
+    }
+    
+    .date-box:hover{
+        border-bottom: 4px solid green;
+        cursor: pointer;
+    }
+    
+    .date-box h2{
+       font-size: 10px;
+       color: #666;
+       font-weight: 700;
+    }
+    
+    .date-box h1{
+        font-size: 15px;
+        font-weight: 500;
+        color: #666;
+        text-align: center
+        ;
+    }
+    
+    .date-box h3{
+        font-size: 10px;
+        color: #666;
+        font-weight: 700;
+        
+    }
+    
+    .live-box{
+       width: 90%;
+       height: 60px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: whitesmoke;
+       border: 1px solid silver;
+       border-top: none;
+       padding: 10px 15px;
+       border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        box-shadow: 0px 5px 8px rgba(78, 78, 78, 0.1);
+    }
+    
+    .all{
+        width: 20%;
+         font-size: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 5px;
+         color:#666;
+         font-weight:500;
+    }
+    
+    .all small{
+        background-color: green;
+        padding: 4px;
+        color: white;
+        border-radius: 40%;
+        font-size: 10px;
+    }
+    
+    .tele{
+        width: 20%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color:#666;
+        font-weight:500;
+    }
+    
+    .tele small{
+        background-color: silver;
+        padding: 4px;
+        color: white;
+        border-radius: 40%;
+    }
+    
+    .live-text{
+        width: 20%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color:#666;
+        font-weight:500;
+    }
+    
+    .live-text small{
+        background-color: red;
+        padding: 4px;
+        color: white;
+        border-radius: 40%;
+    }
+    
+    .date{
+        width: 90%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .date h3{
+        font-size: 10px;
+        font-weight: 400;
+        color: #666;
+    }
+    
+    .date h3:hover{
+        color: rgb(118, 172, 118);
+        cursor: pointer;
+    }
+    
+    .h4-input{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 400;
+        color: #666;
+        gap: 5px;
+        cursor: pointer;
+    }
+    
+    
+    .h4-input:hover{
+        color: rgb(118, 172, 118);
+    }
+    
+    .h4-input input{
+        width: 21px;
+        outline: none;
+        height: 21px;
+    }
+    
+    .ronado{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .ronado img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 2px solid green;
+        padding: 8px;
+        object-fit: contain;
+    
+    }
+    
+    .Headscontainer{
+        width: 90%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    
+    
+    
+    .ronado-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow-x: scroll;
+        gap: 30px;
+        padding: 10px;
+    
+    }
+    
+    .ronado-box::-webkit-scrollbar{
+        display: flex;
+        height: 5px;
+        background-color: silver;
+        width: 100%;
+    }
+    
+    .ronado-box::-webkit-scrollbar-thumb{
+        background: linear-gradient(160deg, rgb(10, 255, 22),rgb(44, 43, 43));
+        border-radius: 10px;
+    }
+    
+    .premier-league-container{
+        width: 90%;
+        min-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border:  1px solid silver;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 8px rgba(78, 78, 78, 0.1);
+    
+    
+    }
+    .premier-league{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: whitesmoke;
+        padding: 8px;
+    }
+    
+    .premier-h1{
+        font-size: 10px;
+        color: #666;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .premier-h1 img{
+        width: 15px;
+        height: 10px;
+    }
+    
+    .dot{
+        width: 15px;
+    }
+    /* fixures */
+    .fixtures-box{
+        width: 100%;
+        height: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:10px 0px;
+        border: 1px solid silver;
+        gap: 5px;
+    }
+    
+    .fixtures-box h1{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 500;
+        margin-left: 18px;
+    }
+    
+    .scores{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .scores h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-size: 10px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .score-logo{
+        width: 20px;
+    }
+
+    .scores h3{
+        font-size: 13px;
+    }
+    
+    .fix{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fix-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* laliga */
+    
+    
+    .laliga-box{
+        width: 100%;
+        height: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:10px 0px;
+        border: 1px solid silver;
+        gap: 5px;
+    }
+    
+    .laliga-box h1{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 500;
+        margin-left: 18px;
+    }
+    
+    .laliga-scores{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .laliga-score-logo{
+        width: 20px;
+    }
+
+    .laliga-scores h3{
+        font-size: 13px;
+    }
+    
+    .laliga-scores h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        gap: 5px;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .laliga-fix{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .laliga-fix-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

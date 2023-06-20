@@ -1,0 +1,277 @@
+.transfer-contain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.offical{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 1px solid silver;
+}
+
+.offical h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.latest{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    border: 1px solid silver;
+    background-color: whitesmoke;
+    padding: 0px 20px;
+    border-radius: 5px;
+
+}
+.latest h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.latest img{
+    width: 35px;
+}
+
+.trensfer-arr{
+    width: 50%;
+    height: fit-content;
+    border-radius: 5px;
+     border: 1px solid silver;
+}
+
+.t-box{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.t-date{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 0px 10px;
+}
+
+.t-date h3{
+    font-size: 16px;
+}
+
+
+.t-stuff{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.t-stuff img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.t-middle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.midd{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.midd h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.midd img{
+    width: 40px;
+}
+
+.midd .arrow{
+    width: 14px;
+}
+
+.midd h5{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(18, 184, 18);
+}
+
+.renew{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media(max-width:450px){
+    .transfer-contain{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .offical{
+        width: 90%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        border: 1px solid silver;
+        margin-top: 20px;
+        padding: 5px;
+    }
+    
+    .offical h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .latest{
+        width: 90%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        border: 1px solid silver;
+        background-color: whitesmoke;
+        padding: 5px 20px;
+        border-radius: 5px;
+    
+    }
+    .latest h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .latest img{
+        width: 20px;
+    }
+    
+    .trensfer-arr{
+        width: 90%;
+        height: fit-content;
+        border-radius: 5px;
+         border: 1px solid silver;
+    }
+    
+    .t-box{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+    }
+    
+    .t-date{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: whitesmoke;
+        padding: 0px 10px;
+    }
+    
+    .t-date h3{
+        font-size: 10px;
+    }
+    
+    
+    .t-stuff{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .t-stuff img{
+        width: 30px;
+        border-radius: 50%;
+    }
+    
+    
+    .t-middle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .t-middle h4{
+        font-size: 10px;
+    }
+    
+    .midd{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .midd h2{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    
+    .midd img{
+        width: 20px;
+    }
+    
+    .midd .arrow{
+        width: 10px;
+    }
+    
+    .midd h5{
+        font-size: 10px;
+        font-weight: 400;
+        color: rgb(18, 184, 18);
+    }
+    
+    .renew{
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
